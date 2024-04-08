@@ -13,7 +13,7 @@
 
 <br>
 
-  <form>
+  <form method="post" name="Formulario">
     <h1 class="titulo1">Datos generales del alumno</h1>
     <div class="linearoja">
       <hr class="br2">
@@ -27,24 +27,24 @@
       <div class="div1">
         <div class="inputs">
           <label for="nombre">Nombre*: </label>
-          <input type="text" id="nombre" placeholder="Nombre">
+          <input type="text" id="nombre" placeholder="Nombre" name="Nombre">
         </div>
         
         <div class="inputs">
           <label for="PrimerApellido"> Primer Apellido*: </label>
-          <input type="text" id="PrimerApellido" placeholder="Primer Apellido">
+          <input type="text" id="PrimerApellido" placeholder="Primer Apellido" name="PrimerA">
         </div>
       
         <div class="inputs">
           <label for="SegundoApellido"> Segundo Apellido*: </label>
-          <input type="text" id="SegundApellido" placeholder="Segundo Apellido">
+          <input type="text" id="SegundApellido" placeholder="Segundo Apellido" name="SegundaA">
         </div>
 
       </div>
       <div class="div1">
       <div class="inputs">
         <label for="Correo">Correo electronico*: </label>
-        <input type="text" id="Correo" placeholder="Correo">
+        <input type="text" id="Correo" placeholder="Correo" name="Correo">
       </div>
       
       <div class="inputs">
@@ -59,7 +59,7 @@
     
       <div class="inputs">
         <label for="fecha"> Fecha de nacimiento*: </label>
-        <input type="date" id="fechanacimiento" placeholder="Fecha nacimiento">
+        <input type="date" id="fechanacimiento" placeholder="Fecha nacimiento" name="Fecha">
       </div>
     </div>
 
@@ -77,15 +77,14 @@
     <label for="Asunto">Asunto:*</label><br>
     <textarea name="Asunto" id="Asunto" cols="200" rows="20"></textarea>
     <br><br>
-    <button id="enviar">Enviar</button>
+    <input type="button" id="enviar" value="Enviar" onclick="validar_submit()">
     <br><br>
     <div class="divpie">
       <p>Joshua Jesus Aviles Interian</p>
       <p>6SB</p>
       <p>Programacion web</p>
     </div>
-
-
   </form>
-</body>
+  <script src="../js/script.js"></script>
+</body>validar_submit
 </html>
