@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea 1 Unidad 2</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="cabeceralogo">
+<a href="https://www.merida.tecnm.mx/"><img class="logo" src="../img/logo.png" alt="logo"></a>
+</div>
+
+<br>
+
+  <form>
+    <h1 class="titulo1">Datos generales del alumno</h1>
+    <div class="linearoja">
+      <hr class="br2">
+      <hr class="br1">
+     </div>
+     <p class="p1">*Compos obligatorios:</p>
+     <br>
+      <label for="curp">CURP</label><br>
+      <input type="text" id="curp" name="curp" placeholder="CURP" >
+      <button class="consultcurp">Consultar CURP</button>
+      <div class="div1">
+        <div class="inputs">
+          <label for="nombre">Nombre*: </label>
+          <input type="text" id="nombre" placeholder="Nombre">
+        </div>
+        
+        <div class="inputs">
+          <label for="PrimerApellido"> Primer Apellido*: </label>
+          <input type="text" id="PrimerApellido" placeholder="Primer Apellido">
+        </div>
+      
+        <div class="inputs">
+          <label for="SegundoApellido"> Segundo Apellido*: </label>
+          <input type="text" id="SegundApellido" placeholder="Segundo Apellido">
+        </div>
+
+      </div>
+      <div class="div1">
+      <div class="inputs">
+        <label for="Correo">Correo electronico*: </label>
+        <input type="text" id="Correo" placeholder="Correo">
+      </div>
+      
+      <div class="inputs">
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" >
+          <option value="">Selecciona una opción</option>
+          <option value="femenino">Femenino</option>
+          <option value="masculino">Masculino</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+    
+      <div class="inputs">
+        <label for="fecha"> Fecha de nacimiento*: </label>
+        <input type="date" id="fechanacimiento" placeholder="Fecha nacimiento">
+      </div>
+    </div>
+
+    <div class="div1">
+      <div class="inputs">
+        <label for="Telefono">Telefono fijo: </label>
+        <input type="text" id="Telefono" placeholder="Telefono fijo">
+      </div>
+      <div class="inputs">
+        <label for="Celular">Celular: </label>
+        <input type="text" id="Celular" placeholder="Celular">
+      </div>
+    </div>
+    
+    <label for="Asunto">Asunto:*</label><br>
+    <textarea name="Asunto" id="Asunto" cols="200" rows="20"></textarea>
+    <br><br>
+    <button id="enviar">Enviar</button>
+    <br><br>
+    <div class="divpie">
+      <p>Joshua Jesus Aviles Interian</p>
+      <p>6SB</p>
+      <p>Programacion web</p>
+    </div>
+
+
+  </form>
+</body>
+</html>
